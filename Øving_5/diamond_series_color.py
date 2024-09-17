@@ -5,7 +5,7 @@ import turtle
 thinkness = 20
 amount = 25 #input('How many diamonds')
 hypo = ((thinkness**2)*2)**0.5
-colors = ["black", "magenta", "pink", "blue", "green", "yellow", "orange", "red"]
+colors = ["black", "gray", "magenta", "violet", "pink", "blue", "green", "yellow", "orange", "red"]
 
 #setting up turtle and putting it on the right angle for diamonds 
 t = turtle.Turtle()
