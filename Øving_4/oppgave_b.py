@@ -6,6 +6,6 @@ line_number = 0
 for line in file:
     line_number += 1
     find_def = line.find('def')
-    if find_def != -1:
+    if find_def  == 0:
         print(f'Line {line_number}: {line}')
 file.close()

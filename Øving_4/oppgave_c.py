@@ -5,7 +5,7 @@ while True:
     if does_exist(file_name):
         break
     else:
-        print("PLease write the name of a file in this folder.")
+        print("Please write a name of a file in this folder.")
 
 file =  open(file_name, 'r')
 line_number = 0
