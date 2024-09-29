@@ -18,7 +18,7 @@ def square(distance):
         t.lt(90)
 
 #drawing the diamonds. Going from the largest to the smallest so color can be filled without overlapping over the last itteration 
-for i in reversed(range(1,amount+1)):
+for i in range(1,amount+1):
     t.penup()
     t.goto(distance*i,0)
     t.pendown()
