@@ -7,8 +7,6 @@ x = (np.arange(-10,10))
 y = []
 for i in x:
     y.append(formel(i))
-print(x)
-print(y)
 
 plt.plot(x,y)
 plt.show()
@@ -18,8 +16,6 @@ x = (np.arange(-10,10,0.5))
 y = []
 for i in x:
     y.append(formel(i))
-print(x)
-print(y)
 
 plt.plot(x,y)
 plt.show()
